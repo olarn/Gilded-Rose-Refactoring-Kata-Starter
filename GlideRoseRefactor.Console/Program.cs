@@ -8,8 +8,6 @@ namespace GlideRoseRefactor.Console
         IList<Item> Items;
         static void Main(string[] args)
         {
-            System.Console.WriteLine("OMGHAI!");
-
             var app = new Program()
             {
                 Items = new List<Item> {
@@ -22,7 +20,14 @@ namespace GlideRoseRefactor.Console
                 }
             };
             app.UpdateQuality();
+            app.PrintItems();
             System.Console.Read();
+        }
+
+        private void PrintItems()
+        {
+            foreach (var item in Items)
+                System.Console.WriteLine("Name: {0}, SellIn: {1}, Quality: {2}", item.Name, item.SellIn, item.Quality);
         }
 
         public void UpdateQuality()
