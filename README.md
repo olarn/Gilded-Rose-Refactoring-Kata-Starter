@@ -8,7 +8,7 @@ Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime
 
 Pretty simple, right? Well this is where it gets interesting:
 
-- Once the sell by date has passed, Quality degrades twice as fast
+- Once the sell by date has passed, Quality degrades
 - The Quality of an item is never negative
 - "Aged Brie" actually increases in Quality the older it gets
 - The Quality of an item is never more than 50
